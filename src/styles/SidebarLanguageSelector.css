@@ -1,0 +1,40 @@
+.languageContainer {
+    border-radius: 2vw;
+    border: 0.4vw solid #4E63E4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1000;
+    top: 92vw;
+    left: 17vw;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-5vw);
+    transition: all 0.3s;
+}
+.sidebarLanguage {
+    height: 8vw;
+    width: 27vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4E63E4;
+    font-size: 3vw;
+}
+.selectedSidebarLanguage {
+    background-color: #4E63E4;
+    color: white;
+}
+.showSidebarLanguageSelector {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media screen and (min-width: 768px) {
+    .languageContainer {
+        display: none;
+    }
+}

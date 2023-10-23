@@ -1,0 +1,280 @@
+.introduction {
+    position: relative;
+    padding-top: 6vw;
+}
+.aboutImg {
+    width: 100%;
+}
+.bannerContents {
+    position: absolute;
+    top: 13vw;
+    left: 15vw;
+}
+.h15 {
+    font-family: 'Helvetica Bold', sans-serif;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+}
+.h16 {
+    font-family: 'Helvetica Bold', sans-serif;
+    font-size: 1.7vw;
+}
+.introSecondSection {
+    background-color: #F7F9FB;
+    margin-top: 0vw;
+    padding: 3vw 14vw;
+}
+.h17 {
+    font-family: 'Helvetica', sans-serif;
+    color: #333333;
+    font-size: 2vw;
+}
+.h18 p{
+    font-family: 'Helvetica', sans-serif;
+    text-align: justify;
+    color: #333333;
+    font-size: 1.8vw;
+}
+.h19 {
+    font-family: 'Helvetica Bold', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vw;
+    font-size: 2.5vw;
+}
+.introContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.maps img {
+    width: 40vw;
+}
+.h20 {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    font-size: 1.6vw;
+    font-family: 'Helvetica', sans-serif;
+    background-color: #47729e;
+    height: 3.5vw;
+    width: 30vw;
+    padding-left: 1vw;
+    border-radius: 2vw;
+    transition: transform 0.3s;
+}
+.h20:hover {
+    transform: scale(1.1);
+}
+.h20Text {
+    background-color: white;
+    height: 3.2vw;
+    display: flex;
+    align-items: center;
+    border-radius: 2vw;
+    width: 25.8vw;
+    padding-left: 1vw;
+}
+.introContacts {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.introContacts a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.4s;
+}
+.h20 img {
+    width: 2vw;
+}
+.h21 {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    font-family: 'Helvetica Bold', sans-serif;
+    font-size: 2.5vw;
+    margin-top: 10vw;
+}
+.h22 {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    font-family: 'Helvetica Bold', sans-serif;
+    font-size: 1.5vw;
+    color: #989898;
+    margin-top: 3vw;
+    margin-bottom: 6vw;
+}
+.fourthContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 0 14vw;
+    margin-bottom: 4vw;
+}
+.fourthLeft img {
+    width: 15vw;
+}
+.fourthRight {
+    padding: 0 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vw;
+}
+.h23 {
+    font-family: 'Helvetica Bold', sans-serif;
+    font-size: 2vw;
+}
+.h24 {
+    color: #989898;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+.h25 {
+    font-size: 1.5vw;
+    color: #4AA6F9;
+}
+
+@media screen and (min-width: 768px) {
+    .introContactDetails{
+        display: none;
+    }
+    .aboutImgPhone {
+        display: none;
+    }
+    .pPhone {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .aboutImg{
+        display: none;
+    }
+    .aboutImgPhone {
+        width: 100%;
+        position: absolute;
+    }
+    .introduction{
+        padding-top: 12vw;
+    }
+    .fourthContainer {
+        margin-bottom: 7vw;
+    }
+    .bannerContents {
+        position: absolute;
+        top: 26vw;
+        left: 14vw;
+    }
+    .introSecondSection {
+        margin-top: 35vw;
+    }
+    .h16 {
+        font-size: 2.7vw;
+    }
+    .h17{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 3vw;
+    }
+    .pWeb {
+        display: none;
+    }
+    .h18 p {
+        font-family: 'Helvetica', sans-serif;
+        text-align: justify;
+        color: #333333;
+        font-size: 2.8vw;
+        line-height: 4vw;
+    }
+    .introContactDetails {
+        margin-top: 7vw;
+        background-color: white;
+        border: 0.01vw solid #EBEBEB;
+        padding: 4vw 8vw;
+        gap: 3vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .contactContainer {
+        display: flex;
+        gap: 4vw;
+    }
+    .leftContact img{
+        width: 8vw;
+    }
+    .rightContact {
+        font-size: 2.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1vw;
+    }
+    .contactTitle {
+        font-size: 3vw;
+    }
+    .introContainer {
+        flex-direction: column;
+    }
+    .maps img {
+        width: 71vw;
+    }
+    .introContacts {
+        align-self: start;
+        padding-left: 14.5vw;
+    }
+    .h19{
+        font-size: 3.5vw;
+    }
+    .h20 img {
+        width: 5vw;
+    }
+    .h20{
+        font-size: 2.3vw;
+        gap: 2vw;
+        height: 7vw;
+        width: 46vw;
+        border-radius: 4vw;
+    }
+    .h20Text{
+        height: 6vw;
+        width: 36.5vw;
+        border-radius: 4vw;
+        padding-left: 2vw;
+    }
+    .introHide{
+        display: none;
+    }
+    .introThirdSection {
+        margin-bottom: 4vw;
+    }
+    .introFourthSection {
+        background-color: #F7F9FB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .h21 {
+        margin-top: 4vw;
+        font-size: 3.5vw;
+    }
+    .h22 {
+        font-size: 2.5vw;
+        width: 58vw;
+        text-align: center;
+    }
+    .h23 {
+        font-size: 2.4vw;
+    }
+    .h24 {
+        font-size: 2.1vw;
+    }
+    .h25 {
+        font-size: 2.1vw;
+    }
+}

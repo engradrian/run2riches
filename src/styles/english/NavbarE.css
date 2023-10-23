@@ -1,0 +1,13 @@
+h1 {
+    font-size: 1.1vw;
+}
+h4 {
+    padding-right: 29vw;
+}
+.navbarE {
+    gap: 4.4vw;
+}
+.navbarMenuE {
+    display: flex;
+    gap: 7vw;
+}

@@ -1,0 +1,186 @@
+.initialBannerBG {
+    width: 150%;
+    transform: translate(-47vw, 6vw)
+}
+.initialBanner {
+    position: relative;
+    height: 25vw;
+    overflow: hidden;
+    height: 26vw;
+}
+
+
+.initialBannerContents {
+    position: absolute;
+    top: 12vw;
+    left: 12vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.IBCTop {
+    width: 3vw;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    color: #8291F3;
+    font-family: 'Helvetica Bold', sans-serif;
+    font-size: 1.5vw;
+}
+.IBCTop img{
+    width: 3vw;
+}
+.IBCBottom {
+    font-size: 2.5vw;
+    font-family: 'Helvetica Bold', sans-serif;
+}
+.secondSectionTitle {
+    margin-top: 10vw;    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    margin-bottom: 6vw;
+    font-family: 'Helvetica Bold', sans-serif;
+    color: #333333;
+}
+.initalSecondSection {
+    padding: 0px 10vw;
+}
+.instructions {
+    padding: 0vw 16vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 58vw;
+    align-items: center;
+}
+.instruction {
+    width: 25vw;
+    font-size: 1.6vw;
+}
+.instructionDescription {
+    text-align: justify;
+    margin-bottom: 2vw;
+    color: #8C8C8C;
+    font-size: 1vw;
+}
+.instructionTitle {
+    margin-bottom: 1vw;
+    font-size: 1vw;
+}
+.thirdSection {
+    background-color: #F7F9FB;
+    padding-top: 4vw;
+}
+.thirdSectionTitle {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    font-size: 2vw;
+    font-family: 'Helvetica Bold', sans-serif;   
+    margin-bottom: 3vw;
+}
+.testimonialsContainer {
+    width: 15vw;
+    padding: 1.5vw;
+    background-color: white;
+    border-radius: 1vw;
+    border: 0.01vw solid #DCDCDC;
+    margin-bottom: 2vw;
+}
+.testimonials {
+    color: #938d8d;
+    margin-bottom: 1vw;
+    font-size: 1vw;
+    text-align: justify;
+}
+.allTestimonials {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 75vw;
+    padding: 0 20vw;
+    height: 60vw;
+}
+.user {
+    font-size: 1.1vw;
+    display: flex;
+    align-items: center;
+}
+.user img{
+    width: 2vw;
+    margin-right: 0.5vw;
+}
+.moveDown {
+    transform: translateY(3vw);
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .IBCTop {
+        display: none;
+    }
+    .IBCBottom {
+        font-size: 4.5vw;
+        transform: translate(-6vw, 4vw);
+    }
+    .initialBannerBG {
+        width: 130%;
+        transform: translate(-17vw, 10vw);
+    }
+    .secondSectionTitle{
+        font-size: 4vw;
+    }
+    .instructions{
+        flex-wrap: nowrap;
+        height: auto;
+        padding: 0vw 5vw;
+    }
+    .instruction {
+        width: auto;
+    }
+    .instructionTitle {
+        margin-bottom: 3vw;
+        font-size: 4vw;
+    }
+    .instructionDescription {
+        font-size: 3.5vw;
+        margin-bottom: 7vw;
+    }
+    .thirdSectionTitle {
+        font-size: 4vw;
+        margin-bottom: 6vw;
+        margin-top: 3vw;
+    }
+    .allTestimonials {
+        flex-wrap: nowrap;
+        height: auto;
+        padding: 0 7vw;
+    }
+    .moveDown {
+        transform: translateY(0);
+    }
+    .testimonialsContainer {
+        width: 77vw;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5vw;
+        margin-bottom: 5vw;
+    }
+    .user {
+        font-size: 4.1vw;
+    }
+    .user img {
+        width: 8vw;
+        margin-right: 2vw;
+    }
+    .testimonials {
+        font-size: 4vw;
+        color: #333333;
+        margin-top: 3vw;
+        margin-bottom: 1vw;
+    }
+    .initialHide {
+        display: none;
+    }
+}

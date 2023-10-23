@@ -1,0 +1,19 @@
+.footer{
+    background-color: #F7F9FB;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica', sans-serif;
+    color: #7E7D7D;
+    font-size: 1vw;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .footer{
+        display: none;
+    }
+    .introHide{
+        display: none;
+    }
+} 

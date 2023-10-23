@@ -1,0 +1,110 @@
+.appDescriptionDownload {
+    background-color: #4E62E4;
+    height: auto;    
+    padding: 6vw 3vw;
+    display: flex;
+    justify-content: center;
+}
+.appDescriptionLeft {
+    color: white;
+    font-family: 'Helvetica Bold', sans-serif;
+    width: 37vw;
+    font-size: 1.5vw;
+    margin-right: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+.appDescriptionLeft img {
+    width: 15vw;
+    margin-top: 1vw;
+}
+.appDescription {
+    display: flex;
+    flex-direction: row;
+}
+.download {
+    border: 0.01vw solid white;
+    font-family: 'Helvetica Bold', sans-serif;
+    width: 16vw;
+    height: 7.9vw;
+    color: white;
+    display: flex;
+    font-size: 1.3vw;
+    justify-content: center;
+    align-items: center;
+}
+.qrCode {
+    width: 16.6vw;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;
+}
+.qrCode img {
+    width: 100%;
+}
+.appDescriptionRight {
+    display: flex;
+    gap: 1.5vw;
+}
+.downloadButtons {
+    gap: 0.9vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.steps a{
+    text-decoration: none;
+}
+.certificate {
+    font-size: 1.2vw;
+    margin-top: 3vw;
+    font-family: 'Arial';
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .appDescriptionDownload{
+        flex-direction: column;
+    }
+    .appDescriptionDownload {
+        padding: 2vw 2vw;
+        height: auto;
+        align-items: center;
+    }
+    .appDescriptionLeft {
+        width: 84vw;
+        font-size: 3.5vw;
+        margin-right: 0vw;
+        margin-bottom: 7vw;
+        text-align: justify;
+        margin-top: 3vw;
+    }
+    .appDescriptionLeft img{
+        width: 26vw;
+        margin-top: 2vw;
+    }
+    .certificate {
+        font-size: 3.2vw;
+        margin-top: 6vw;
+        display: flex;
+        flex-direction: column;
+        transform: translateY(13vw);
+    }
+    .downloadButtons {
+        gap: 3.5vw;
+        flex-direction: row;
+        transform: translateY(-26vw);
+    }
+    .qrCode {
+        display: none;
+    }
+    .download {
+        width: 40vw;
+        height: 10vw;
+        font-size: 3vw;
+    }
+}

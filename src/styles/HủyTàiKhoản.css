@@ -1,0 +1,62 @@
+.cancellationPage {
+    padding-top: 8vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.cancellationContentContainer {
+    margin-bottom: 7vw;
+}
+.cancellationContents {
+    color:#777777;
+}
+.cancellationTitle {
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+}
+.cancellationContents {
+    font-size: 1.2vw;
+    margin-bottom: 1.5vw;
+    line-height: 2.5vw;
+}
+.photoInstructions img {
+    height: 37vw;
+    margin-right: 5vw;
+    margin-top: 2vw;
+}
+.cancellationLogo img{
+    width: 4vw;
+}
+.cancellationLogo {
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    margin-bottom: 3vw;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .photoInstructions img {
+        height: 100vw;
+        margin: 7vw 4vw;
+    }
+    .photoInstructions {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .cancellationPage {
+        padding-top: 12vw;
+    }
+    .cancellationTitle {
+        font-size: 2.5vw;
+    }
+    .cancellationContents {
+        font-size: 2.2vw;
+    }
+    .cancellationLogo img{
+        width: 7vw;
+    }
+    .cancellationLogo {
+        font-size: 4vw;
+    }
+}

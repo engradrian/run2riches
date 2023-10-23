@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./fonts/Helvetica.ttf') format('truetype');
+}
+  
+@font-face {
+    font-family: 'Helvetica Bold';
+    src: url('./fonts/Helvetica-Bold.ttf') format('truetype');
+}
+  
+@font-face {
+    font-family: 'Helvetica Bold Oblique';
+    src: url('./fonts/Helvetica-BoldOblique.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Helvetica Bold Oblique';
+    src: url('./fonts/Helvetica-BoldOblique.ttf') format('truetype');
+}
+  
+@font-face {
+    font-family: 'Helvetica Compressed';
+    src: url('./fonts/helvetica-compressed-5871d14b6903a.otf') format('opentype');
+}
+  
+@font-face {
+    font-family: 'Helvetica Light';
+    src: url('./fonts/helvetica-light-587ebe5a59211.ttf') format('truetype');
+}
+  
+@font-face {
+    font-family: 'Helvetica Oblique';
+    src: url('./fonts/Helvetica-Oblique.ttf') format('truetype');
+}
+  
+@font-face {
+    font-family: 'Helvetica Rounded Bold';
+    src: url('./fonts/helvetica-rounded-bold-5871d05ead8de.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'PingFang SC Regular';
+    src: url('./fonts/pingfang\ \(regular\).ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PingFang SC 400';
+    src: url('./fonts/pingfang\ \(regular\).ttf') format('truetype');
+}
+
+.App {
+    font-family: 'Helvetica', sans-serif;
+}

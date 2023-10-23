@@ -1,0 +1,54 @@
+.navbarSelector {
+    background-color: white;
+    height: 0.3vw;
+    width: 11vw;
+    top: 4.3vw;
+    transform: translateX(18.9vw);
+    position: fixed;
+    border-radius: 2vw;
+    z-index: 99;
+    transition: all 0.3s;
+}
+
+.position2 {
+    width: 10.8vw;
+    transform: translateX(34vw);
+}
+
+.position3 {
+    width: 7.9vw;
+    transform: translateX(49.1vw);
+}
+.position4 {
+    width: 9.6vw;
+    transform: translateX(61vw);
+}
+.position5 {
+    width: 8vw;
+    transform: translateX(74.7vw);
+}
+.position6 {
+    width: 4.1vw;
+    transform: translateX(23.6vw);
+}
+.position7 {
+    width: 3.2vw;
+    transform: translateX(33.7vw);
+}
+.position8 {
+    width: 6vw;
+    transform: translateX(42.9vw);
+}
+.position9 {
+    width: 6.6vw;
+    transform: translateX(54.9vw);
+}
+.position10 {
+    width: 11.5vw;
+    transform: translateX(67.5vw);
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .navbarSelector {
+        display: none;
+    }
+}

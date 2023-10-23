@@ -1,0 +1,47 @@
+
+.languageSelector {
+    background-color: black;
+    position: fixed;
+    top: 5vw;
+    right: 8.4vw;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5vw;
+    border: 0.01vw solid white;
+    color: white;
+    font-size: 1vw;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s;
+    transform: translateY(-2vw);
+    transform: translate(5vw, -1vw);
+}
+.showLanguageSelector {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(5vw, 0vw);
+}
+.language {
+    background-color: black;
+    width: 7vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2vw;
+    margin: 0.25vw 0.25vw;
+}
+.language:hover {
+    cursor: pointer;
+}
+.selectedLanguage {
+    background-color: #606060;
+    border: 0.01vw solid white;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .languageSelector {
+        display: none;
+    }
+}

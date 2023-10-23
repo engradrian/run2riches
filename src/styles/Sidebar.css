@@ -1,0 +1,118 @@
+@media screen and (min-width: 768px) {
+    .sidebar{
+        display: none;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .sidebar{
+        position: fixed;
+        background-color: white;
+        width: 60%;
+        height: 100%;
+        z-index: 100;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.3s;
+        transform: translateX(-100%);
+    }
+    .sidebarShow {
+        transform: translateX(0);
+    }
+    .sidebarMenus {
+        margin-top: 5vw;
+        color: #4E63E4;
+    }
+    .sidebarMenus a{
+        color: #4E63E4;
+    }
+    .sidebarMenu {
+        font-family: 'Helvetica', sans-serif;
+        height: 10vw;
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        margin-bottom: 2vw;
+        border-radius: 2vw;
+        padding-left: 4vw;
+        font-size: 3vw;
+    }
+    .sidebarMenu img {
+        width: 4vw;
+        margin-right: 2vw;
+    }
+    .sidebarLanguageSelector {
+        margin-top: 7vw;
+        justify-content: center;
+        gap: 3vw;
+    }
+    .sidebarArrowdown {
+        margin-left: 2vw;
+    }
+    .languageContainer {
+        border-radius: 2vw;
+        border: 0.4vw solid #4E63E4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-5vw);
+        transition: all 0.3s;
+    }
+    .sidebarLanguage {
+        height: 8vw;
+        width: 27vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #4E63E4;
+        font-size: 3vw;
+    }
+    .selectedSidebarLanguage {
+        background-color: #4E63E4;
+        color: white;
+    }
+    .showSidebarLanguageSelector {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .xButton {
+        align-self:flex-start;
+        padding-left: 1vw;       
+        padding-top: 1vw;
+    }
+    .xButton img {
+        width: 10vw;
+    }
+    .active {
+        background-color: #4E63E4;
+        color: white;
+        transition: all 0.3s;
+    }
+    .menu {
+        transform: translateX(-7vw);
+        margin-right: 25vw;
+    }
+    .menu img{
+        width: 5vw;
+    }
+    .blackBG {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        z-index: 99;
+        top: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s;
+    }
+    .blackBGShow {
+        visibility: visible;
+        opacity: 0.5;
+    }
+}

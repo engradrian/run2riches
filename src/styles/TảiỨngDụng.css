@@ -1,0 +1,145 @@
+.downloadPage {
+    position: relative;
+    padding-top: 6vw;
+    overflow: hidden;
+}
+.dpbgimg {
+    width: 118%;
+}
+.downloadPageContents {
+    position: absolute;
+    z-index: 2;
+    top: 6vw;
+    left: -6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 52vw;
+    width: 107vw;
+    gap: 11vw;
+}
+.topOne {
+    font-size: 2vw;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    font-family: 'PingFang SC 400', sans-serif;
+    color: #4E62E4;
+}
+.topOne img {
+    width: 3vw;
+}
+.topTwo {
+    font-family: 'Helvetica Bold', sans-serif;
+    font-size: 3vw;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+.topThree {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.5vw;
+}
+.rightDownloadP img{
+    width: 29vw;
+}
+.outerSquare {
+    margin-top: 3vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftBotDownloadP {
+    display: flex;
+    align-items: center;
+}
+.downloadPButtons img {
+    width: 1.4vw;
+}
+.iosDownloadP, .androidDownloadP {
+    background-color: #262B27;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    height: 4vw;
+    width: 14vw;
+    margin-left: 2vw;
+    margin-bottom: 1vw;
+    transform: translateY(2vw);
+    font-family: 'PingFang SC 400', sans-serif;
+    font-size: 1.3vw;
+}
+.innerSquare {
+    background-color: #C7C3C3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+.innerSquare img {
+    width: 12vw;
+}
+
+@media screen and (min-width: 768px) {
+    .dpbgimgphone {
+        display: none;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .dpbgimg {
+        display: none;
+    }
+    .dpbgimgphone{
+        width: 100%;
+    }
+    .dpbgimg img{
+        width: 115%;
+    }
+    .downloadPageContents {
+        top: 64vw;
+        flex-direction: column;
+    }
+    .topOne img {
+        width: 6vw;
+    }
+    .topOne {
+        font-size: 4vw;
+        justify-content: center;
+    }
+    .topTwo {
+        font-size: 4vw;
+        margin-top: 4vw;
+        margin-bottom: 3vw;
+        display: flex;
+        justify-content: center;
+    }
+    .topThree {
+        font-size: 2.5vw;
+        display: flex;
+        justify-content: center;
+    }
+    .qrCodeThree{
+        display: none;
+    }
+    .downloadPButtons {
+        display: flex;
+    }
+    .leftBotDownloadP {
+        justify-content: center;
+    }
+    .iosDownloadP, .androidDownloadP {
+        height: 10vw;
+        width: 33vw;
+        margin-top: 6vw;
+        font-size: 3vw;
+    }
+    .downloadPButtons img {
+        width: 2.4vw;
+    }
+    .rightDownloadP img {
+        width: 71vw;
+    }
+}
